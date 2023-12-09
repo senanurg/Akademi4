@@ -1,0 +1,35 @@
+div#baslik {
+  border: 3px solid rgb(89, 68, 145);
+  color: white;
+  background-color: rgba(88, 6, 54, 0.937);
+  width: center;
+  height: center;
+  text-align: center;
+}
+
+div#fotoğraflar {
+  width: 982px;
+  height: 1615px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+div.fotoğraf {
+  width: 304px;
+  height: 303px;
+  background-color: rgb(73, 15, 150);
+  color: blue;
+  border: 2px solid rgb(228, 20, 117);
+  text-align: center;
+  line-height: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+body {
+  padding: 50px;
+  background: #05cff3;
+}
